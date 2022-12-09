@@ -1,0 +1,12 @@
+We were able to build three models with a set accuracy of 0.97, while significantly reducing the number of feautures (just 7). This lead us to save running time 
+(from 5.47 seconds to only 0.36)
+
+With the reduced features, we were also able to describe how a company might go bankrupt or not, explaining the model better. The features conclusiones were:
+Companies with:
+
+high "Interest-bearing debt interest rate" tend to go bankrupt (≈ 0.000499)
+high "Total debt/Total net worth" tend to go bankrupt (≈ 0.015723)
+high "Fixed Assets Turnover Frequency" tend to go bankrupt (≈ 0.001225)
+low "Cash/Total Assets" tend to go bankrupt (≈ 0.023755)
+low "Equity to Liability" tend to go bankrupt (≈ 0.018662)
+companies with a low 'Net profit before tax/Paid-in capital', 'Persistent EPS in the Last Four Seasons' and 'Net Value Per Share (A)' tend to go bankrupt
